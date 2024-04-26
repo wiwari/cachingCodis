@@ -34,7 +34,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: log time
-        run: echo `date` | tee -a data/fetch.log
+        run: echo `date` | tee data/fetch.log
 
       - name: Push 
         run: |
